@@ -8,18 +8,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
   </head>
-  <body>
+  <body style="width:100%; padding:0; Margin:0;">
     <div>
       <!--Основная таблица письма-->
       <table class="content-wrapper" width="100%" cellspacing="0" cellpadding="0" border="0">
         <tr>
-          <td>
+          <td align="center"
+            style="padding:0; Margin:0;">
 
             <!--Логотип-->
-            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
               <tr>
-                <td>
-                  <img src="img/logo.png" width="187" height="32" alt="Логотип playhtml"/>
+                <td align="center"
+                  style="Margin:0; padding-top:56px; padding-bottom:0px; padding-left:20px; padding-right:20px; font-size:0px;">
+                 <table class="content-body" align="center" cellpadding="0" cellspacing="0"
+                    style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; width:600px;">
+                   <tr>
+                     <td align="center"
+                      style="Margin:0; font-size:0px;">
+                      <img src="img/logo.png" width="187" height="32" alt="Логотип playhtml"/>
+                     </td>
+                   </tr>
+                 </table>
                 </td>
               </tr>
             </table>
@@ -28,27 +38,35 @@
             <table width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
                 <td>
-                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <table class="content-body" align="center" cellpadding="0" cellspacing="0"
+                    style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; width:600px;">
                     <tr>
-                      <td>
-                        <a href="#" target="_blank">КУРСЫ</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a href="#" target="_blank">ВЕБИНАРЫ</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a href="#" target="_blank">О ШКОЛЕ</a>
-                      </td>
-                    </tr>
-                  </table>
-                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                    <tr>
-                      <td>
-                        <a href="#" target="_blank">РАСПРОДАЖА</a>
+                      <td align="left"
+                        style="padding:0; Margin:0; padding-left:32px; padding-right:32px; padding-top:48px;">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td>
+                              <a href="#" target="_blank">КУРСЫ</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#" target="_blank">ВЕБИНАРЫ</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#" target="_blank">О ШКОЛЕ</a>
+                            </td>
+                          </tr>
+                        </table>
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td>
+                              <a href="#" target="_blank">РАСПРОДАЖА</a>
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
@@ -56,37 +74,67 @@
               </tr>
             </table>
 
-            <!--Приветсвтвие-->
+            <!--Приветсвтвие. Блок с текстом и картинкой справа-->
             <table width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
                 <td>
-                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                    <tr>
-                      <td>
-                        <h2>Здравствуйте, {{name}}</h2>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>Благодарим вас за регистрацию на курс «Начальный html+css».</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          Курс стартует 1 июля в 17.00 по московскому времени.
-                          Письма со ссылками для входа в кабинет придут на указанную почту за день до старта курса.
-                        </p>
-                      </td>
-                    </tr>
-                  </table>
-                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                    <tr>
-                      <td>
-                        <img src="img/croods-standing.png" width="175" height="269" alt="Нарисованный человек"/>
-                      </td>
-                    </tr>
-                  </table>
+                 <table class="content-body" align="center" cellpadding="0" cellspacing="0" bgcolor="#0B379B"
+                    style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; width:600px; background-color:#0B379B;">
+                   <tr>
+                     <td align="left"
+                      style="padding: 0; Margin:0;">
+                        <table cellspacing="0" cellpadding="0" align="left" border="0"
+                          style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; float:left;">
+                          <tr>
+                            <td align="left"
+                              style="padding:0; Margin:0; width:329px;">
+                              <table width="100%" cellpadding="0" cellspacing="0" align="left"
+                                style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; float:left;">
+                                <tr>
+                                  <td align="left"
+                                    style="padding-top:32px; padding-right:0px; padding-left:32px;">
+                                    <h2>Здравствуйте, {{name}}</h2>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left"
+                                    style="padding-right:0px; padding-left:32px;">
+                                    <p>Благодарим вас за регистрацию на курс «Начальный html+css».</p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left"
+                                    style="padding-right:0px; padding-left:32px;">
+                                    <p>
+                                      Курс стартует 1 июля в 17.00 по московскому времени.
+                                      Письма со ссылками для входа в кабинет придут на указанную почту за день до старта курса.
+                                    </p>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <table cellspacing="0" cellpadding="0" align="left" border="0"
+                          style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; float:right;">
+                          <tr>
+                            <td align="right"
+                              style="padding:0; Margin:0; width:143px;">
+                              <table width="100%" cellpadding="0" cellspacing="0" align="right"
+                                style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; float:right;">
+                                <tr>
+                                  <td align="right"
+                                    style="padding-top:0px; padding-right:32px; padding-left:0px; Margin:0; font-size:0px;">
+                                    <img src="img/croods-standing.png" width="175" height="269" alt="Нарисованный человек"/>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                     </td>
+                   </tr>
+                 </table>
                 </td>
               </tr>
             </table>
@@ -95,28 +143,43 @@
           <table width="100%" cellspacing="0" cellpadding="0" border="0">
             <tr>
               <td>
-                <h2>Что вас ждет на курсе</h2>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты. А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>В этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и поделится секретами мастерства. А если у вас останутся вопросы, наставник сможет ответить на них на консультации.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>После завершения курса вам нужно будет подготовить свой проект к защите — убедиться, что он реализован
-                  в соответствии с техническим заданием.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!</p>
+                <table class="content-body" align="center" cellpadding="0" cellspacing="0"
+                  style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; width:600px;">
+                    <tr>
+                      <td align="left"
+                        style="Margin:0; padding-top:40px; padding-bottom:0px; padding-left:32px; padding-right:32px;">
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                          style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px;">
+                          <tr>
+                            <td align="center">
+                              <h2>Что вас ждет на курсе</h2>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты. А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>В этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и поделится секретами мастерства. А если у вас останутся вопросы, наставник сможет ответить на них на консультации.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>После завершения курса вам нужно будет подготовить свой проект к защите — убедиться, что он реализован
+                                в соответствии с техническим заданием.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                </table>
               </td>
             </tr>
           </table>
@@ -136,7 +199,7 @@
                     <td>
                       <table width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                          <td>
+                          <td style="Margin:0; font-size:0px;">
                             <img src="img/chubarov.jpg" width="88" height="88" alt="Антон Громов"/>
                           </td>
                         </tr>
@@ -163,7 +226,7 @@
                     <td>
                       <table width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                          <td>
+                          <td style="Margin:0; font-size:0px;">
                             <img src="img/ramensky.jpg" width="88" height="88" alt="Илья Раменский"/>
                           </td>
                         </tr>
@@ -190,7 +253,7 @@
                     <td>
                       <table width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                          <td>
+                          <td style="Margin:0; font-size:0px;">
                             <img src="img/chubarov.jpg" width="88" height="88" alt="Игнатий Чубаров"/>
                           </td>
                         </tr>
@@ -223,85 +286,100 @@
           <table width="100%" cellspacing="0" cellpadding="0" border="0">
             <tr>
               <td>
-                <h2>Другие мероприятия</h2>
-              </td>
-            </tr>
-            <!--Тренды frontend-разработки-->
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <table class="content-body" align="center" cellpadding="0" cellspacing="0"
+                  style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px; width:600px;">
                   <tr>
-                    <td>
-                      <h3>Тренды frontend-разработки</h3>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>20 июня, 17:00</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Самые многообещающие направления развития фронтенда в 2020 году</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+                    <td align="left"
+                      style="Margin:0; padding-top:48px; padding-bottom:0px; padding-left:16px; padding-right:16px;">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                        style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0px;">
+                        <tr>
+                          <td align="center">
+                            <h2>Другие мероприятия</h2>
+                          </td>
+                        </tr>
+                        <!--Тренды frontend-разработки-->
+                        <tr>
+                          <td>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <h3>Тренды frontend-разработки</h3>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>20 июня, 17:00</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Самые многообещающие направления развития фронтенда в 2020 году</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
 
-            <!--Figma vs Photoshop-->
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <h3>Figma vs Photoshop</h3>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>21 июня, 17:00</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Почему давно пора отказаться от последнего?</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+                        <!--Figma vs Photoshop-->
+                        <tr>
+                          <td>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <h3>Figma vs Photoshop</h3>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>21 июня, 17:00</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Почему давно пора отказаться от последнего?</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
 
-            <!--Что такое Git и как его использовать?-->
-            <tr>
-              <td>
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <h3>Что такое Git и как его использовать?</h3>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>22 июня, 17:00</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Разберем тонкости использования самой популярной системы контроля версий.</p>
+                        <!--Что такое Git и как его использовать?-->
+                        <tr>
+                          <td>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <h3>Что такое Git и как его использовать?</h3>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>22 июня, 17:00</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <p>Разберем тонкости использования самой популярной системы контроля версий.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#" target="_blank">Все мероприятия</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="Margin:0; font-size:0px;">
+                            <img src="img/croods-keeping-in-touch.png" width="274" height="290" alt="Нарисованные люди общаются"/>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="#" target="_blank">Все мероприятия</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/croods-keeping-in-touch.png" width="274" height="290" alt="Нарисованные люди общаются"/>
               </td>
             </tr>
           </table>
